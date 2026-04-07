@@ -1,5 +1,9 @@
 :root {
+<<<<<<< HEAD
   --primary: #f63b3b; /* azul padrão base */
+=======
+  --primary: #72fc56; /* azul padrão base */
+>>>>>>> feature/incremento-rename
   --bg: #f8fafc;
   --text: #0f172a;
   --card: #ffffff;

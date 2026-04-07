@@ -5,7 +5,11 @@ const elDecrement = document.getElementById("btn-decrement");
 const elToggleTheme = document.getElementById("btn-toggle-theme");
 const elTitle = document.getElementById("title");
 
+<<<<<<< HEAD
 function setCount(newValue) {
+=======
+function updateCount(newValue) {
+>>>>>>> feature/incremento-rename
   elCount.textContent = String(newValue);
 }
 
@@ -13,12 +17,21 @@ let state = { count: 0, dark: false };
 
 elIncrement.addEventListener("click", () => {
   state.count += 2;
+<<<<<<< HEAD
   setCount(state.count);
 });
 
 elDecrement.addEventListener("click", () => {
   state.count -= 2;
   setCount(state.count);
+=======
+  updateCount(state.count);
+});
+
+elDecrement.addEventListener("click", () => {
+  state.count -= 1;
+  updateCount(state.count);
+>>>>>>> feature/incremento-rename
 });
 
 elToggleTheme.addEventListener("click", () => {
